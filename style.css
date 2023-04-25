@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    height: 72px;
+}
+
+.restoran-header {
+    margin-bottom: 1rem;
+}
+
+.search {
+    width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.search-input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #b9b9b9;
+    
+}
+
+
+
+.card{
+   max-width: 50rem;
+   
+}
+
+.card{
+    margin-top: 1rem;
+}
+.card-body{
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    transition: background-color 0.5s  ease-in;
+    
+}
+
+.card-body:hover{
+    
+    background-color: #f6f5f5;
+}
+
+.card-body a{
+    color: #262626;
+}
+.card-body h5,p{
+    margin: 0.1rem;
+}
+
+.hover-image-scale {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.hover-image-scale img {
+    transition: 1s;
+    display: block;
+}
+
+.hover-image-scale img:hover {
+    transform: scale(1.2);
+}
+
+.bg-transparent {
+    border-color: rgba(180, 180, 180, 0.323);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer{
+    margin-top: 5rem;
+    min-height: 650px;
+    max-height: 1050px;
+    width: 100%;
+    background-color: #262626;
+}
+
+.footer-brand {
+    padding: 3rem 0;
+}
+
+.footer-hr {
+    border-top: 1px solid white;
+}
+
+.inform-links{
+    padding: 4rem 0;
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.inform-links-columns{
+    margin-top: 1rem;
+}
+
+.dropdown .btn{
+    background-color:  #3B3B3B;
+}
+
+.hashtag{
+    color: #49A144;
+}
+
+.download-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.download-links img{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.personal-inform{
+    padding: 3rem 0;
+    font-size: 11px;
+    color: aliceblue;
+}
+
+.light-text{
+    color: #626262;
+}
+

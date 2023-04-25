@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    height: 72px;
+}
+
+footer{
+    margin-top: 5rem;
+    min-height: 650px;
+    max-height: 1050px;
+    width: 100%;
+    background-color: #262626;
+}
+
+.footer-brand {
+    padding: 3rem 0;
+}
+
+.footer-hr {
+    border-top: 1px solid white;
+}
+
+.inform-links{
+    padding: 4rem 0;
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.inform-links-columns{
+    margin-top: 1rem;
+}
+
+.dropdown .btn{
+    background-color:  #3B3B3B;
+}
+
+.hashtag{
+    color: #49A144;
+}
+
+.download-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.download-links img{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.personal-inform{
+    padding: 3rem 0;
+    font-size: 11px;
+    color: aliceblue;
+}
+
+.light-text{
+    color: #626262;
+}
+
+.header-background-image{
+    margin-top: 4rem;
+    height: 350px;
+    background-image: url(/assets/background_img.svg);
+    background-size: cover;
+
+}
+
+.container-inform-box{
+    display: flex;
+    justify-content: start;
+    padding-top: 4rem;
+}
+.inform-box{
+    background-color: #ffffff;
+    width: fit-content;
+    height: 200px;
+}
+
+.header-inform-box-text{
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.light-text{
+    display: flex;
+    align-items: center;
+    color: #626262;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+.black-round-text{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: #262626;
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.footer-inform-box{
+    padding-top: 4rem;
+}
+
+.inform{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.nav-btn-panel{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.tabs{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-color: #262626;
+}
+
+.tabs-labels label{
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    transition: 0.15s ease-out;
+    cursor: pointer;
+    margin-right: 3rem;
+    
+}
+.tabs > input[type='radio'] {
+    display: none;
+}
+
+
+
+.border-hr{
+    border-top: 1px solid rgba(117, 117, 117, 0.2);
+}
+.footer-hr {
+    border-top: 1px solid white;
+}
+
+
+.snacks-text{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.card-body{
+    padding: 0;
+    
+}
+
+
+.card-column{
+    margin-bottom: 2rem;
+    
+}
+
+.card-shape{
+    max-width: 600px;
+    height: fit-content;
+}
+
+.card-image{
+    
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.card-container-text{
+    padding: 1rem;
+}
+
+.card-text{
+    color:transparent;
+    
+    
+}
+
+.card-shape:hover p{
+    color: #626262;
+    transition: color .5s linear;
+
+}
+
+
+.card-black-text{
+    color: #000000;
+    margin-top: 3.5rem;
+    
+}
+
+
